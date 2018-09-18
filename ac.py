@@ -1,2 +1,2 @@
-a = 1 + 3
-print (a)
+def soma(n1,n2):
+    return (n1 + n2)
