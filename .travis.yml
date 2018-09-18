@@ -4,7 +4,7 @@ python:
 script:
   - py.test test.py
 
-  after script:
-    notifications:
-      reciplents:
-        renancarlosrossini@hotmail.com
+after script:
+notifications:
+reciplents:
+  renancarlosrossini@hotmail.com
