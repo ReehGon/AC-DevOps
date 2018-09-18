@@ -2,7 +2,7 @@ language: python
 python:
   "3.6.2"
 script:
-  - py.ac ac.py
+  - py.test test.py
 
   after script:
     notifications:
