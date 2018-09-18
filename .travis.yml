@@ -1,0 +1,10 @@
+language: python
+python:
+  "3.6.2"
+script:
+  - py.ac ac.py
+
+  after script:
+    notifications:
+      reciplents:
+        renancarlosrossini@hotmail.com
